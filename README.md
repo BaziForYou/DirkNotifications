@@ -1,4 +1,4 @@
-Usage:
+**Usage:**
 
 TriggerEvent("Notifs:Open",title,msg,buttons,input,inputtext,time,callback)
 
@@ -13,12 +13,12 @@ callback    = This should be false or a function if using a function the two ret
 
 
 
-To implement to ESX.ShowNotification():
+**To implement to ESX.ShowNotification():**
 
 
-Go to : the client side of es_extended and look for 
+_Go to : the client side of es_extended and look for _
 
-ESX.ShowNotificaion function something like this:
+**ESX.ShowNotificaion function something like this:**
 
 ESX.ShowNotification = function(msg, flash, saveToBrief, hudColorIndex)
   if saveToBrief == nil then saveToBrief = true end
