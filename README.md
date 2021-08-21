@@ -11,7 +11,7 @@ inputtext   = What should the default text in the input field be (string) (only 
 time        = In milliseconds how long to display this notification use -1 to display until its interacted with(don't recommend this with regular notifs only choice or input)
 callback    = This should be false or a function if using a function the two return args are bool(for choice return) and input. (see examples in client.lua)
 
-
+You must press Tab to enable your mouse to use input style notifs.
 
 **To implement to ESX.ShowNotification():**
 
